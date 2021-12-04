@@ -1,0 +1,287 @@
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*---------------------nav-----------------*/
+.nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+     -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+             justify-content: space-between;
+     margin-bottom: 2rem;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+       position: sticky;
+       top: 0;
+       background-color: lightgray;
+      padding: 10px 0 0 10px;
+       z-index: 3;
+      
+    }
+    
+    body{
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        position: relative;
+        overflow-x: hidden;
+    }
+    .row{
+      
+        margin: 0 auto;
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+        color: inherit;
+        padding: 5px;
+      
+       
+    }
+    .a:hover{
+      color: initial;
+      border-bottom: 1px solid black ;
+     
+    }
+    .alay{
+        color: wheat;
+        color: inherit;
+        text-decoration: none;
+    }
+    .alay:hover{
+        color: wheat;
+        color: inherit;
+        text-decoration: none 
+    }
+    
+    
+    .nav div .ul li {
+        float: left;
+        margin-right: 2rem;
+    }
+    
+    ul{
+        list-style: none;
+       
+    }
+    .body{
+        overflow: hidden;
+    }
+    /*---------------head---------------------*/
+    .head{
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+        overflow: hidden;
+    }
+    p{
+        margin-top: 2rem;
+    }
+  
+    .btn1{
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #5267DF;
+        color: white;
+        font-family: sans-serif;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        transition: all 0.5s ease-in;
+    }
+    .btn2{
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: lightgrey;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        transition: all 0.5s ease-in;
+    }
+    .btn1,.btn1more:hover{
+        background-color: lightslategray;
+    }
+    .btn2:hover{
+        background-color:#5267DF ;
+        color: white;
+    }
+    .img{
+        
+        border-radius: 5px;
+    }
+    /*--- feature-----*/
+    .feature{
+        text-align: center;
+        margin-bottom: 30px;
+     
+    }
+    span{
+       margin-right: 4rem;
+       background-color: #5267DF;
+       padding: 1rem;
+       border-radius: 2rem;
+       color: white;
+       font-family: sans-serif;
+       cursor: pointer;
+     -webkit-user-select: none;
+        -moz-user-select: none;
+         -ms-user-select: none;
+             user-select: none;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .span{
+        margin-bottom: 5rem;
+    }
+    .mid{
+        margin-bottom: 5rem;
+        
+       
+    }
+    .bar{
+        background-color: lightgrey;
+        height: 2px;
+        width: 100%;
+    }
+    .btn1more{
+        margin-top: 2rem;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #5267DF;
+        color: white;
+        font-family: sans-serif;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        transition: all 0.5s ease-in;
+    }
+    .wahtsection{
+        margin-bottom: 5rem;
+    }
+    .contact{
+        background-color: #5267DF;
+        padding: 20px;
+        width: 100%;
+    }
+    .p1{
+        width: 70%;
+        margin-bottom: 2rem;
+       
+    }
+    .contact .feature div h5,.contact .feature div h2{
+        margin-bottom: 20px;
+    }
+    .contact .feature div form input,.contact .feature div form button {
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+    .foot{
+        background-color:lightslategray ;
+        width: 100%;
+        height: 5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+       
+        
+    }
+    .foot .ul li {
+        margin-right: 2rem;
+        float: left;
+    }
+    .ham{
+        display: none;
+        cursor: pointer;
+        z-index: 5;
+        margin-right: 2rem;
+    }
+
+
+.a2{
+    color: inherit;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color:#5267DF;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+   display: inline-flex;
+   margin-bottom: 5px;
+    
+}
+.a2:hover{
+    background-color: lightgray;
+    color: black;
+}
+.img{
+    width: 100%;
+    height: auto;
+    
+    border-radius: 30px;
+}
+
+@keyframes line{
+    from {opacity: 0;transform:translateX(-50px);}
+    to{opacity: 1;transform: translateX(opx)}
+}
+.overlay{
+    height: auto;
+    width: 20rem;
+    position: fixed;
+    /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://wallpaperaccess.com/full/5837770.jpg);*/
+    right: 0;
+    background-color: #778899;
+    display: flex;
+    justify-content: center;
+    display: none;
+    z-index: 2;
+    border-radius: 5px;
+    
+   
+}
+.ul1{
+    margin-top: 5rem;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+.a1{
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.li1{margin-bottom: 10px;}
+
+.show{
+    display: inline;
+   
+}
+
+  
+
+    
+    
+    
